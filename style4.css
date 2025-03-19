@@ -1,0 +1,274 @@
+
+*   /* Header */
+header {
+  background-color: #222;
+  color:black;
+  padding: 20px 0;
+}
+
+header .container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-family: 'Cursive', sans-serif;
+  font-size: 2.5em;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+  color: #d4af7f;
+} 
+.video-item {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.video-item.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.video-item.hovered {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
+
+
+
+{
+    border: 1px solid black;
+  }
+  p{
+    color: black;
+}
+h1{ 
+    color: black;
+}
+.title{
+    color: black;
+}
+uppercase {
+    text-transform: uppercase;
+  }
+  #article-title {
+    font-family: cursive;
+  }
+  
+  p:hover {
+    background-color: pink;
+  }
+  a:hover{color: red;}
+
+  #publish-time {
+    color: red;
+  }
+  <style>
+    #portofoliu {
+        text-align: center;
+        padding: 20px;
+    }
+    .video-container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    video {
+        width: 300px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    body {
+        font-family: 'Dancing Script', cursive;
+        text-align: center;
+        font-size: 24px;
+        padding: 50px;
+    }
+    form {
+        max-width: 500px;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    label {
+        margin-top: 10px;
+        font-weight: bold;
+    }
+    
+    input, textarea {
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    button {
+        margin-top: 15px;
+        padding: 10px;
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: red;
+    }
+
+
+
+    .fundal {
+        background-image: url('https://media.istockphoto.com/id/1397574789/ro/fotografie/%C3%AEmpreun%C4%83-facem-lumea-mai-bun%C4%83.jpg?s=612x612&w=0&k=20&c=bATwQAIYsxGKB32HTDfvzq25sDpKDkuNFTw-4BaCGxQ=');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 500px; /* Înălțimea div-ului */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white; /* Text alb pentru contrast */
+      }
+       
+
+
+      .fundal {
+        background-image: url('https://www.marturiielegante.ro/wp-content/uploads/2017/06/6835187-wedding-desktop-wallpaper.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 500px; /* Înălțimea div-ului */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white; /* Text alb pentru contrast */
+      }
+      
+
+
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f8f8;
+        margin: 0;
+        padding: 0;
+    }
+    
+    h1 {
+        color: #333;
+        text-align: center;
+    }
+    
+    .container {
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+        background: white;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8
+      
+    }
+
+    p {
+        color: black;
+      }
+      
+      .main p {
+        color: red;
+      }
+
+
+      @keyframes fall {
+        0% { transform: translateY(0) rotate(0deg); opacity: 1; }
+        100% { transform: translateY(100vh) rotate(360deg); opacity: 0; }
+    }
+    
+    .petal {
+        position: absolute;
+        top: -10px;
+        width: 15px;
+        height: 15px;
+        background: pink;
+        border-radius: 50%;
+        opacity: 0.8;
+        animation: fall 5s linear infinite;
+    }
+     
+
+    .handwrite {
+        display: inline-block;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 3px solid transparent;
+        width: 0;
+        font-family: 'Dancing Script', cursive; /* Un font romantic */
+        font-size: 2rem;
+        animation: typing 3s steps(40, end) forwards;
+    }
+    
+    @keyframes typing {
+        from { width: 0; }
+        to { width: 100%; }
+    }
+    .fade-in {
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeIn 1.5s ease-in-out forwards;
+    }
+    
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .petal {
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 50%;
+            animation: fall linear infinite;
+        }
+        
+        @keyframes fall {
+            from { transform: translateY(0); opacity: 1; }
+            to { transform: translateY(100vh); opacity: 0; }
+        }
+        .video-container video {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin: auto;
+        }
+        

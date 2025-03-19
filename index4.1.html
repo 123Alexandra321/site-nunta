@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+
+   
+    <link href='style4.1.css ' rel='stylesheet'>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actualizări</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+        .update {
+            background: white;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+        }
+        .date {
+            font-size: 0.9em;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h2>Latest Updates</h2>
+
+    <div class="update">
+        <h3>The new video of March!</h3>
+        <p>I have added a new video to my portfolio. See it here:  
+            <video src="c:\Users\Lenovo\Downloads\Nunta la Richland, Servicii foto video, Videoclip de nunta.mp4 " width="320" height="240" controls>Video not supported</video>"
+        
+        <p class="date">7 March 2025</p>
+    </div>
+
+    <div class="update">
+        <h3>Special event in June</h3>
+        <p>We will be participating in a videography event. Details coming soon!</p>
+        <p class="date">14 June 2025</p>
+    </div></section>
+
+</body>
+</html>
+
+<div id="hearts-container"></div>
+
+<script>
+    function createHeart() {
+        let heart = document.createElement("div");
+        heart.classList.add("heart");
+        heart.style.left = Math.random() * 100 + "vw";
+        heart.style.animationDuration = Math.random() * 3 + 2 + "s";
+        document.getElementById("hearts-container").appendChild(heart);
+
+        setTimeout(() => {
+            heart.remove();
+        }, 5000);
+    }
+
+    setInterval(createHeart, 500);
+</script>
+    
+
+
+<style>
+    body {
+      background: linear-gradient(to bottom, #ffdde1, #ee9ca7);
+    }
+  </style> 
+  <a href="data nunti.html" target="_blank">The next event</a>
+
+
+  <footer>
+    <p>&copy; 2025  web dev site nunti și foto. All rights reserved..</p>
+</footer>

@@ -1,0 +1,147 @@
+/* Resetare stiluri implicite */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Stiluri globale */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: whitesmoke;
+    color: red;
+    line-height: 1.6;
+  }
+   
+  /* Header */
+  header {
+    background-color: #222;
+    color:black;
+    padding: 20px 0;
+  }
+  
+  header .container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-family: 'Cursive', sans-serif;
+    font-size: 2.5em;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin-left: 20px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+  }
+  
+  header nav ul li a:hover {
+    color: #d4af7f;
+  }
+  
+  /* Secțiunea de introductivă */
+  #home {
+    background: url('background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #home .intro h2 {
+    font-size: 3em;
+    color:black;
+    margin-bottom: 10px;
+  }
+  
+  #home .intro p {
+    font-size: 1.5em;
+    color: black;
+    margin-top: 10px;
+  }
+  
+  /* Portofoliu */
+  .portfolio {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .portfolio h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #222;
+  }
+  
+  .videos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 0 10%;
+  }
+  
+  .video-item video {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 1.1em;
+  }
+  
+  /* Media Queries pentru Mobil */
+  @media (max-width: 768px) {
+    header .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    header h1 {
+      margin-bottom: 20px;
+    }
+  
+    header nav ul {
+      flex-direction: column;
+    }
+  
+    header nav ul li {
+      margin-bottom: 10px;
+    }
+  
+    .videos {
+      padding: 0 5%;
+    }
+  
+    .intro h2 {
+      font-size: 2.5em;
+    }
+  
+    .intro p {
+      font-size: 1.2em;
+    }
+  }
+  
+ 

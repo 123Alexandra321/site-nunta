@@ -1,0 +1,56 @@
+<link href='style4.css' rel='stylesheet'>
+
+
+
+
+    <ul>
+        <li>About Us:</li>
+    </ul>
+   <p> Welcome to the world of love stories told through images! We are a passionate videography team, specialized in capturing the most beautiful moments of your wedding day. We believe that every couple has a unique story, and our mission is to transform it into a moving film, full of authenticity and elegance.
+</p>
+        <ul>
+            <li> What we offer:</li></ul>
+            <p>With extensive experience in the field and state-of-the-art equipment, we create cinematic wedding videos that capture the emotions and details of every special moment. From the preparations and ceremony to the party, we ensure that every moment is rendered in an artistic style, with professional editing and a soundtrack that perfectly complements the atmosphere.</p>
+        
+        <ul>
+            <li>Our team:</li>
+        </ul>
+        <p>We are a dynamic and creative team of talented videographers and editors, dedicated to the visual arts. Each of us brings a unique vision and passion to each project, ensuring that the final result exceeds the expectations of each couple. We believe in collaboration, communication and attention to detail, so that each film is a true personalized masterpiece.</p>
+
+        <ul>
+            <li>Why Us?</li>
+        </ul>
+        <ul>
+            <li>Exceptional cinematic style;</li>
+            <li>Experience and professionalism;
+                <li>State-of-the-art equipment;
+ </li>
+            </li>
+            <li>Passion for authentic love stories.</li>
+        </ul>
+        <p>We want to be the witnesses and creators of your precious memories, transforming your wedding day into an unforgettable film. Contact us and let's discuss how we can bring your story to life!</p>
+
+        <div id="hearts-container"></div>
+
+<script>
+    function createHeart() {
+        let heart = document.createElement("div");
+        heart.classList.add("heart");
+        heart.style.left = Math.random() * 100 + "vw";
+        heart.style.animationDuration = Math.random() * 3 + 2 + "s";
+        document.getElementById("hearts-container").appendChild(heart);
+
+        setTimeout(() => {
+            heart.remove();
+        }, 5000);
+    }
+
+    setInterval(createHeart, 500);
+  
+
+
+    <style>
+  body {
+    background: linear-gradient(to bottom, #ffdde1, #ee9ca7);
+  }
+</style>
